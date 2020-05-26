@@ -17,16 +17,13 @@ int main()
          if (longitud>10){
 
         cout << "La palabra tiene mas de 10 caracteres." << endl;
-    } else {
-
-        if (longitud==10){
-
-            cout <<"La palabra tiene 10 caracteres" << endl;
-        } else {
-
-              cout <<"La palabra tiene menos de 10 caracteres" << endl ;
-        }
     }
+        else if (longitud==10){
+            cout <<"La palabra tiene 10 caracteres" << endl;
+
+        } else {
+            cout <<"La palabra tiene menos de 10 caracteres" << endl ;
+        }
 
     if (longitud%2==0){
 
@@ -35,5 +32,6 @@ int main()
     }else{
         cout <<"Los caracteres de la palabra son impares" << endl;
     }
+
     return 0;
 }
