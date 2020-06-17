@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-
 int MCD(int a, int b){
 
 
