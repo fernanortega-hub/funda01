@@ -2,12 +2,6 @@
 
 using namespace std;
 
-int darHora (int hh, int mm, int ss){
-
-
-}
-
-
 int main (){
 
     int hh, mm, ss;
