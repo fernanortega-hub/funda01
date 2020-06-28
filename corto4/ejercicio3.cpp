@@ -40,7 +40,7 @@ void notaFinal (float matriz[][5], int n){
 
     for (int a = 0; a < n; a++){
         float promedio=0;
-            for (int b = 0; b < n; b++){
+            for (int b = 0; b < 5; b++){
                 porcentaje= (matriz[a][b]*0.2);
                 promedio += porcentaje;
             }
